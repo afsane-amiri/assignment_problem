@@ -107,7 +107,7 @@ def optimize_and_plot(storm_severity=5, num_adjusters=5, budget=2_000_000):
     kpi_html = f"""
     <h4>📊 KPI Summary</h4>
     <ul>
-      <li><b>Total Cost:</b> {total_cost:.1f} km</li>
+      <li><b>Total Cost:</b> {total_cost:.1f} $</li>
       <li><b>Avg Distance:</b> {avg_distance:.1f} km</li>
       <li><b>SLA (&lt;500 km):</b> {sla*100:.1f}%</li>
       <li><b>Adjuster Utilization:</b> {utilization*100:.1f}%</li>
